@@ -1,0 +1,36 @@
+# Maven相关文件
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Gradle相关文件（如果使用Gradle）
+.gradle/
+build/
+
+# IDE相关文件
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+
+# 日志文件
+*.log
+logs/
+
+# 编译生成的文件
+*.class
+*.jar
+*.war
+*.ear
+
+# 操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 环境配置文件（防止敏感信息泄露）
+.env
+application-*.properties
+application-*.yml
+
+# 单元测试覆盖率报告
+jacoco/

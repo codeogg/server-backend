@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.xufei</groupId>
+        <artifactId>server-backend</artifactId>
+        <version>${revision}</version>
+    </parent>
+
+    <artifactId>server-core</artifactId>
+    <packaging>pom</packaging>
+
+    <description>核心模块</description>
+
+    <modules>
+        <module>server-core-bom</module>
+        <module>server-core-base</module>
+        <module>server-core-doc</module>
+        <module>server-core-encrypt</module>
+        <module>server-core-excel</module>
+        <module>server-core-json</module>
+        <module>server-core-log</module>
+        <module>server-core-mail</module>
+        <module>server-core-mybatis</module>
+        <module>server-core-oss</module>
+        <module>server-core-redis</module>
+        <module>server-core-ratelimiter</module>
+        <module>server-core-satoken</module>
+        <module>server-core-security</module>
+        <module>server-core-web</module>
+        <module>server-core-websocket</module>
+        <module>server-core-sse</module>
+        <module>server-core-social</module>
+    </modules>
+
+</project>

@@ -1,0 +1,19 @@
+mybatis-plus:
+  mapper-locations: classpath*:mapper/**/*Mapper.xml
+  mapper-package: com.xufei.**.mapper
+  type-aliases-package: com.xufei.**.domain
+  global-config:
+    db-config:
+      id-type: auto
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+      insert-strategy: not_null
+      update-strategy: not_null
+      where-strategy: not_null
+    banner: false
+  check-config-location: false
+  configuration:
+    map-underscore-to-camel-case: true
+    auto-mapping-behavior: full
+    auto-mapping-unknown-column-behavior: none
+    log-impl: org.apache.ibatis.logging.nologging.NoLoggingImpl
